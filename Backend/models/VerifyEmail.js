@@ -5,7 +5,7 @@ const verifyOtpSchema = new Schema({
     userId: {
         type: String
     }
-    ,otp: {
+    ,hashedOtp: {
         type: String,
         require
     },
